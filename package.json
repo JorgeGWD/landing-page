@@ -19,5 +19,8 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^6.0.0"
+  }
 }

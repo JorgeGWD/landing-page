@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
-import Logo from '../logo/logo'
-import ContactNumbers from '../contactNumbers/contactNumbers'
+import Logo from './logo/logo'
+import ContactNumbers from './contactNumbers/contactNumbers'
 
 const Header = () => {
     return (

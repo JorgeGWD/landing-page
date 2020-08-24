@@ -1,0 +1,11 @@
+.contact-numbers {
+  display: -ms-grid;
+  display: grid;
+}
+
+.contact-numbers h2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+/*# sourceMappingURL=contactNumbers.css.map */
