@@ -34,11 +34,13 @@
 }
 
 .welcome .welcome-content .welcome-text hr {
+  margin-bottom: 10px;
   border-top: 2px solid #fff;
 }
 
 .welcome .welcome-content .welcome-text p {
   font-size: 18px;
+  line-height: 28px;
 }
 
 .welcome .welcome-content .welcome-text p span {

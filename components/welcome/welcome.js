@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './welcome.css'
+import ContactForm from '../contactForm/contactForm'
 
 const Welcome = () => {
 
@@ -17,7 +18,7 @@ const Welcome = () => {
                     <p>Inicia hoy tu proyecto de mejoramiento facial y corporal financiando <span>tu tratamiento en cuotas sin intereses</span>.</p>
                 </div>
                 <div className="form">
-
+                    <ContactForm />
                 </div>
             </div>
         </div>
