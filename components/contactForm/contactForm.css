@@ -5,7 +5,7 @@
 
 .contact-form h2 {
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 600;
   text-align: center;
 }
@@ -29,7 +29,6 @@
 }
 
 .contact-form button {
-  text-align: center;
-  margin-bottom: 20px;
+  margin: auto;
 }
 /*# sourceMappingURL=contactForm.css.map */

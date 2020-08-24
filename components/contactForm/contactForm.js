@@ -7,39 +7,58 @@ const ContactForm = () => {
         name: '',
         phone: '',
         email: '',
-        selector: '',
+        details: '',
         checkbox: false
     })
 
-    const handleChange = (e) => {
-        console.log(e.target.value)
+    const [ addOption, setAddOption ] = useState(["Elija área a tratar", "Estetica facial", "Estética corporal", "Depilación laser", "Estética masculina", "Otras especialidades"])
+
+    const Add = addOption.map(Add => Add)
+
+    const handleOption = (e) => {
+        // console.clear(),
+        // console.log(addOption[e.target.value])
 
         setData({
-            ...data,
+            ...addOption,
             [e.target.value] : e.target.name
         })
     }
+
+    const handleChange = (e) => {
+        // console.log(e.target.value)
+
+        setData({
+            ...data,
+            [e.target.value] : e.target.key
+        })
+    }
+
+    const onSubmit = (e) => {
+        e.preventDefault();
+        console.log(data.name + '\n' + data.phone + '\n' + data.email + '\n' + addOption.key)
+    }
+    
     return (
         <div className="contact-form">
             <h2>Escríbenos y obtén asesoría inicial personalizada y sin costo</h2>
-            <form action="">
+            <form onSubmit={onSubmit}>
                 <input type="text" name="name" placeholder="Nombre completo" onChange={handleChange} />
                 <input type="text" name="phone" placeholder="Teléfono" onChange={handleChange} />
                 <input type="email" name="email" placeholder="E-mail" onChange={handleChange} />
-                <select name="selector">
-                    <option value="">Elija área a tratar</option>
-                    <option value="">Estética facial</option>
-                    <option value="">Estética corporal</option>
-                    <option value="">Depilación laser</option>
-                    <option value="">Estética masculina</option>
-                    <option value="">Otras especialidades</option>
+                <select name="selector" onChange={e => handleOption(e)}>
+                    {
+                        Add.map((address, key) => 
+                            <option key={key} value={key}>{address}</option>
+                        )
+                    }
                 </select>
-                <input type="text" name="details" placeholder="¿Podría darnos más detalles?"/>
+                <input type="text" name="details" placeholder="¿Podría darnos más detalles?" onChange={handleChange} />
                 <div className="checkbox-privaci">
                     <input type="checkbox" id="privaci"/>
                     <label htmlFor="privaci">He leído y acepto la <a href="">política de privacidad</a></label>
                 </div>
-                <button className="btn-default">Solicitar información</button>
+                <button className="btn-default" type="submit">Solicitar información</button>
             </form>
         </div>
     )
