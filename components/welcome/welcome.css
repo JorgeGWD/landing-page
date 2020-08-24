@@ -2,6 +2,7 @@
   display: -ms-grid;
   display: grid;
   height: 100vh;
+  color: #fff;
   -ms-grid-row-align: center;
       align-self: center;
   background-image: url("/static/welcome-bg.jpg");
@@ -17,5 +18,30 @@
   margin: auto;
   padding: 50px 0px;
   max-width: 950px;
+}
+
+.welcome .welcome-content .welcome-text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
+  grid-gap: 20px;
+}
+
+.welcome .welcome-content .welcome-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.welcome .welcome-content .welcome-text hr {
+  border-top: 2px solid #fff;
+}
+
+.welcome .welcome-content .welcome-text p {
+  font-size: 18px;
+}
+
+.welcome .welcome-content .welcome-text p span {
+  font-weight: 600;
 }
 /*# sourceMappingURL=welcome.css.map */
