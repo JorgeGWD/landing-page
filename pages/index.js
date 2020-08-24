@@ -1,9 +1,9 @@
 import Header from '../components/header/header'
+import './sass/styles.css'
 
 const IndexPage = () => (
   <>
     <Header />
-    <p>Hello, I'm the index page</p>
   </>
 )
 
