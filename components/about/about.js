@@ -2,13 +2,16 @@ import React from 'react'
 import './about.css'
 
 const About = () => {
-
-    const styling = {
-        backgrounImage: 'url()'
-    }
-
     return (
-        <div className="about" style={styling}>
+        <div className="about">
+            <style jsx>{`
+                .about {
+                    background-image: url(${require("../../assets/about-bg.jpg")});
+                    background-size: cover;
+                    background-position: botton left;
+                    background-attachment: fixed;
+                }
+            `}</style>
             <div className="about-content">
                 <div className="about-text">
                     <h2>Acerca de CIFES IPS</h2>
