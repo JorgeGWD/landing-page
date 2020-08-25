@@ -8,6 +8,7 @@ import Discount from '../components/discount/discount'
 import CertificationsAndPermits from '../components/certificationsAndPermits/certificationsAndPermits'
 import About from '../components/about/about'
 import Testimonials from '../components/testimonials/testimonials'
+import Contact from '../components/contact/contact'
 
 const IndexPage = () => (
   <>
@@ -22,6 +23,7 @@ const IndexPage = () => (
     <CertificationsAndPermits />
     <About />
     <Testimonials />
+    <Contact />
   </>
 )
 

@@ -1,0 +1,15 @@
+.contact {
+  padding: 50px 0px;
+}
+
+.contact .contact-content {
+  margin: auto;
+  max-width: 950px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  color: #fff;
+}
+/*# sourceMappingURL=contact.css.map */
