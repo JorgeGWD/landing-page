@@ -5,6 +5,7 @@ import './sass/styles.css'
 import Welcome from '../components/welcome/welcome'
 import OurAdvantages from '../components/ourAdvantages/ourAdvantages'
 import Discount from '../components/discount/discount'
+import CertificationsAndPermits from '../components/certificationsAndPermits/certificationsAndPermits'
 
 const IndexPage = () => (
   <>
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <Welcome />
     <OurAdvantages />
     <Discount />
+    <CertificationsAndPermits />
   </>
 )
 
