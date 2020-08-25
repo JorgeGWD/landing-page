@@ -39,7 +39,7 @@ const CertificationsAndPermits = () => {
                     {
                         data.map((data, key) =>
                         <div className="card-box" key={key}>
-                            <img src={data.img} alt=""/>
+                            <img src={data.img} alt={data.text}/>
                             <h3>{data.text}</h3>
                         </div>
                         )
