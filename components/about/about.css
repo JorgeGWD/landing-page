@@ -1,0 +1,32 @@
+.about .about-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.about .about-content .about-text {
+  padding: 80px 40px;
+  color: #fff;
+  background-color: rgba(98, 159, 223, 0.92);
+}
+
+.about .about-content .about-text h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.about .about-content .about-text hr {
+  margin: 20px auto;
+  width: 10%;
+  border: 1px solid #fff;
+}
+
+.about .about-content .about-text p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 24px;
+}
+/*# sourceMappingURL=about.css.map */

@@ -6,6 +6,7 @@ import Welcome from '../components/welcome/welcome'
 import OurAdvantages from '../components/ourAdvantages/ourAdvantages'
 import Discount from '../components/discount/discount'
 import CertificationsAndPermits from '../components/certificationsAndPermits/certificationsAndPermits'
+import About from '../components/about/about'
 
 const IndexPage = () => (
   <>
@@ -18,6 +19,7 @@ const IndexPage = () => (
     <OurAdvantages />
     <Discount />
     <CertificationsAndPermits />
+    <About />
   </>
 )
 

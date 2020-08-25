@@ -10,6 +10,14 @@ const Welcome = () => {
 
     return (
         <div className="welcome">
+            <style jsx>{`
+                .welcome {
+                    background-image: url(${require("../../assets/welcome-bg.jpg")});
+                    background-size: cover;
+                    background-position: botton top;
+                    background-attachment: fixed;
+                }
+            `}</style>
             <div className="welcome-content">
                 <div className="text-panel">
                     <div className="welcome-text">
