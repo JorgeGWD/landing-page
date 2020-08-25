@@ -2,7 +2,6 @@
   position: relative;
   display: -ms-grid;
   display: grid;
-  height: 100vh;
   color: #fff;
   -ms-grid-row-align: center;
       align-self: center;
