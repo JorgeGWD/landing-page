@@ -3,6 +3,8 @@ import './ourAdvantages.css'
 import chatBubble from '../../assets/chat-bubble.svg'
 import thumbsUp from '../../assets/thumbs-up.svg'
 import diamond from '../../assets/diamond.svg'
+import calendarCheck from '../../assets/calendar-check.svg'
+import heartBeat from '../../assets/heartbeat.svg'
 
 const OurAdvantages = () => {
 
@@ -24,6 +26,18 @@ const OurAdvantages = () => {
             icon: diamond,
             title: `Cifes Premium`,
             content: `Al vincularte como paciente regular te acreditarán cliente Premium con beneficios en formaciones, descuentos y regalos especiales.`
+        },
+        {
+            id: 4,
+            icon: calendarCheck,
+            title: `Ahorra tiempo`,
+            content: `Agendamiento y valoración online harán ahorrarte horas de desplazamiento.`
+        },
+        {
+            id: 5,
+            icon: heartBeat,
+            title: `Tratamientos seguros`,
+            content: `Tratamientos mínimamente invasivos para tu tranquilidad.`
         }
     ])
 

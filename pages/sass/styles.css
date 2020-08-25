@@ -40,6 +40,20 @@ button.btn-default {
   border: 4px solid #03f;
 }
 
+button.btn-default-hover {
+  background-color: #03f;
+  border: 4px solid #03f;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+button.btn-default-hover:hover {
+  background-color: #00CCFF;
+  border: 4px solid #00CCFF;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
 button.btn-withe {
   color: #03f;
   background-color: #fff;

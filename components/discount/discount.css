@@ -1,0 +1,31 @@
+.discount {
+  padding: 50px 0px;
+}
+
+.discount .discount-content {
+  margin: auto;
+  max-width: 950px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.discount .discount-content h2, .discount .discount-content h3, .discount .discount-content h4 {
+  font-weight: 600;
+}
+
+.discount .discount-content h2 {
+  color: #03f;
+  font-size: 55px;
+}
+
+.discount .discount-content h3 {
+  margin-bottom: 30px;
+  color: #03f;
+  font-size: 35px;
+}
+
+.discount .discount-content h4 {
+  margin: 30px 0px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=discount.css.map */

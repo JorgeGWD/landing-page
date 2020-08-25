@@ -4,6 +4,7 @@ import Header from '../components/header/header'
 import './sass/styles.css'
 import Welcome from '../components/welcome/welcome'
 import OurAdvantages from '../components/ourAdvantages/ourAdvantages'
+import Discount from '../components/discount/discount'
 
 const IndexPage = () => (
   <>
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <Header />
     <Welcome />
     <OurAdvantages />
+    <Discount />
   </>
 )
 
