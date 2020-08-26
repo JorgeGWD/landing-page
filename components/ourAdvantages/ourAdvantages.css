@@ -1,6 +1,6 @@
 .our-advantages {
   padding: 50px 20px;
-  background-color: #0033FF;
+  background-color: #03f;
 }
 
 .our-advantages .our-advantages-content {
@@ -20,7 +20,7 @@
 .our-advantages .our-advantages-content hr {
   margin: 20px auto;
   width: 10%;
-  border: 2px solid #0AAD71;
+  border: 2px solid #00CCFF;
 }
 
 .our-advantages .our-advantages-content button {
