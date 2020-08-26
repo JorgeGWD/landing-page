@@ -55,4 +55,13 @@
         grid-template-rows: repeat(3, 1fr);
   }
 }
+
+@media screen and (max-width: 453px) {
+  .testimonials .testimonials-cards {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[6];
+        grid-template-rows: repeat(6, 1fr);
+  }
+}
 /*# sourceMappingURL=testimonials.css.map */

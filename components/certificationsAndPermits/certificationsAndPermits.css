@@ -25,6 +25,10 @@
 }
 
 .certifications-and-permits .certifications-content .certifications-cards .card-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[2];
+      grid-template-rows: repeat(2, auto);
   padding: 20px;
   text-align: center;
   background-color: #fff;
@@ -41,6 +45,9 @@
   color: #3163BE;
   font-weight: 600;
   text-transform: uppercase;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 @media screen and (max-width: 850px) {
