@@ -1,0 +1,27 @@
+.container .content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+}
+
+.container .content .content-data {
+  padding: 50px;
+}
+
+.container .content .content-data h1 {
+  color: #3163BE;
+  font-weight: 600;
+}
+
+.container .content .content-data hr {
+  margin: 10px 0px;
+  width: 30%;
+  border: 2px solid #00CCFF;
+}
+
+.container .content .content-img {
+  background-color: blue;
+}
+/*# sourceMappingURL=facialAesthetics.css.map */

@@ -9,6 +9,7 @@ import CertificationsAndPermits from '../components/certificationsAndPermits/cer
 import About from '../components/about/about'
 import Testimonials from '../components/testimonials/testimonials'
 import Contact from '../components/contact/contact'
+import FacialAesthetics from '../components/facialAesthetics/facialAesthetics'
 
 const IndexPage = () => (
   <>
@@ -18,6 +19,7 @@ const IndexPage = () => (
     </Head>
     <Header />
     <Welcome />
+    <FacialAesthetics />
     <OurAdvantages />
     <Discount />
     <CertificationsAndPermits />
