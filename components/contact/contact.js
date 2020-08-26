@@ -7,7 +7,7 @@ import envelope from '../../assets/envelope.svg'
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <style jsx>{`
                 .contact {
                     background-image: url(${require("../../assets/contact-bg.jpg")});

@@ -2,6 +2,7 @@
   position: relative;
   display: -ms-grid;
   display: grid;
+  padding: 50px 20px;
   color: #fff;
   -ms-grid-row-align: center;
       align-self: center;
@@ -25,9 +26,8 @@
   display: grid;
   -ms-grid-columns: 55% 45%;
       grid-template-columns: 55% 45%;
-  grid-gap: 20px;
+  grid-gap: 30px;
   margin: auto;
-  padding: 50px 0px;
   max-width: 950px;
 }
 

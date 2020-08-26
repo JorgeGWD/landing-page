@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './ourAdvantages.css'
+import Link from 'next/link'
 import chatBubble from '../../assets/chat-bubble.svg'
 import thumbsUp from '../../assets/thumbs-up.svg'
 import diamond from '../../assets/diamond.svg'
@@ -57,7 +58,9 @@ const OurAdvantages = () => {
                         )
                     }
                 </div>
-                <button className="btn-withe">Solicitar información</button>
+                <Link href="#contact">
+                    <button className="btn-withe">Solicitar información</button>
+                </Link>
             </div>
         </div>
     )

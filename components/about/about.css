@@ -1,3 +1,7 @@
+.about {
+  padding: 0px 40px;
+}
+
 .about .about-content {
   display: -ms-grid;
   display: grid;
