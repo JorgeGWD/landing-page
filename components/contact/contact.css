@@ -77,4 +77,11 @@
 .contact .contact-content .contact-data .contact-data-content .contact-data-data h3 {
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .contact .contact-content {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+}
 /*# sourceMappingURL=contact.css.map */

@@ -1,1 +1,11 @@
-/* No CSS *//*# sourceMappingURL=logo.css.map */
+@media screen and (max-width: 768px) {
+  .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=logo.css.map */

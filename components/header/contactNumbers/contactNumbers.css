@@ -9,4 +9,10 @@
       align-self: center;
   text-align: right;
 }
+
+@media screen and (max-width: 768px) {
+  .contact-numbers h2 {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=contactNumbers.css.map */

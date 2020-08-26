@@ -6,4 +6,11 @@
   grid-gap: 20px;
   padding: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .header .hesder-content {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+}
 /*# sourceMappingURL=header.css.map */

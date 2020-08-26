@@ -14,7 +14,7 @@ const Welcome = () => {
                 .welcome {
                     background-image: url(${require("../../assets/welcome-bg.jpg")});
                     background-size: cover;
-                    background-position: botton top;
+                    background-position: center;
                     background-attachment: fixed;
                 }
             `}</style>

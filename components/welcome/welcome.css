@@ -4,8 +4,6 @@
   display: grid;
   padding: 50px 20px;
   color: #fff;
-  -ms-grid-row-align: center;
-      align-self: center;
   background-color: blue;
 }
 
@@ -63,5 +61,12 @@
 
 .welcome .welcome-content .text-panel .welcome-text p span {
   font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .welcome .welcome-content {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
 }
 /*# sourceMappingURL=welcome.css.map */

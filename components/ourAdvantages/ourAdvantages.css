@@ -60,4 +60,11 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .our-advantages .our-advantages-content .our-advantages-cards {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+}
 /*# sourceMappingURL=ourAdvantages.css.map */

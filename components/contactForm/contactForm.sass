@@ -1,6 +1,7 @@
 .contact-form
     padding: 40px 30px
     color: #fff
+    text-align: center
     background-color: rgba(0, 0, 0, .5)
     h2
         margin-bottom: 20px
@@ -9,13 +10,17 @@
         text-align: center
     .checkbox-privaci
         display: grid
-        grid-template-columns: 20px 1fr
+        grid-template-columns: 20px auto
         grid-gap: 10px
         margin: 20px auto
         width: 90%
         input
+            margin: 0px
             width: 20px
-        a
-            color: #fff
+            align-self: center
+        label
+            text-align: left
+            a
+                color: #fff
     button
-        margin: auto
+        justify-items: flex-end

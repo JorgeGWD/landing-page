@@ -42,4 +42,13 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 850px) {
+  .certifications-and-permits .certifications-content .certifications-cards {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+  }
+}
 /*# sourceMappingURL=certificationsAndPermits.css.map */
