@@ -37,6 +37,11 @@
   margin: 40px 0px;
 }
 
+.our-advantages .our-advantages-content .our-advantages-cards #four, .our-advantages .our-advantages-content .our-advantages-cards #five {
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
 .our-advantages .our-advantages-content .our-advantages-cards .card-box {
   padding: 50px 20px;
   text-align: center;
@@ -65,6 +70,10 @@
   .our-advantages .our-advantages-content .our-advantages-cards {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
+  }
+  .our-advantages .our-advantages-content .our-advantages-cards #four, .our-advantages .our-advantages-content .our-advantages-cards #five {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
 }
 /*# sourceMappingURL=ourAdvantages.css.map */

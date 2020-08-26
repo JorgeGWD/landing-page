@@ -11,31 +11,31 @@ const OurAdvantages = () => {
 
     const [ data, useData] = useState([
         {
-            id: 1,
+            id: 'one',
             icon: chatBubble,
             title: `Consulta sin costo`,
             content: `Tus consultas con nuestros especialistas no tienen costo. Puedes consultar con ellos cualquiera de las 58 categorías de tratamientos.`
         },
         {
-            id: 2,
+            id: 'two',
             icon: thumbsUp,
             title: `Garantía de satisfacción`,
             content: `Damos garantía que al finalizar un tratamiento si no quedas satisfecho, lo repetiremos*. (Aplica condiciones y restricciones).`
         },
         {
-            id: 3,
+            id: 'three',
             icon: diamond,
             title: `Cifes Premium`,
             content: `Al vincularte como paciente regular te acreditarán cliente Premium con beneficios en formaciones, descuentos y regalos especiales.`
         },
         {
-            id: 4,
+            id: 'four',
             icon: calendarCheck,
             title: `Ahorra tiempo`,
             content: `Agendamiento y valoración online harán ahorrarte horas de desplazamiento.`
         },
         {
-            id: 5,
+            id: 'five',
             icon: heartBeat,
             title: `Tratamientos seguros`,
             content: `Tratamientos mínimamente invasivos para tu tranquilidad.`
@@ -50,7 +50,7 @@ const OurAdvantages = () => {
                 <div className="our-advantages-cards">
                     {
                         data.map((data, key) => 
-                        <div className="card-box" key={key}>
+                        <div id={data.id} className="card-box" key={key}>
                             <img src={data.icon} alt=""/>
                             <h3>{data.title}</h3>
                             <p>{data.content}</p>
