@@ -2,6 +2,7 @@
     
 .container
     // padding: 50px 20px
+    color: $dark-color
     .content
         display: grid
         grid-template-columns: repeat(2,1fr)
@@ -17,5 +18,30 @@
                 margin: 10px 0px
                 width: 30%
                 border: 2px solid $secondary-color
+            .treatment-data
+                margin: 20px 0px
+                p
+                    margin-bottom: 5px
+                    font-size: 18px
+                    font-weight: lighter
+                h3
+                    font-size: 20px
+                    font-weight: 600
         .content-img
-            background-color: blue
+            // background-color: blue
+
+@media screen and ( max-width: 950px )
+    .container
+        .content
+            grid-template-columns: 2fr 1fr
+
+@media screen and ( max-width: 768px )
+    .container
+        .content
+            grid-template-columns: 1fr 0fr
+        
+@media screen and ( max-width: 450px )
+    .container
+        .content
+            .content-data
+                padding: 50px 20px

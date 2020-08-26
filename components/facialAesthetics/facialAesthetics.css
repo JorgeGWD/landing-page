@@ -1,3 +1,7 @@
+.container {
+  color: #4C4C4C;
+}
+
 .container .content {
   display: -ms-grid;
   display: grid;
@@ -21,7 +25,38 @@
   border: 2px solid #00CCFF;
 }
 
-.container .content .content-img {
-  background-color: blue;
+.container .content .content-data .treatment-data {
+  margin: 20px 0px;
+}
+
+.container .content .content-data .treatment-data p {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.container .content .content-data .treatment-data h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 950px) {
+  .container .content {
+    -ms-grid-columns: 2fr 1fr;
+        grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container .content {
+    -ms-grid-columns: 1fr 0fr;
+        grid-template-columns: 1fr 0fr;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container .content .content-data {
+    padding: 50px 20px;
+  }
 }
 /*# sourceMappingURL=facialAesthetics.css.map */
