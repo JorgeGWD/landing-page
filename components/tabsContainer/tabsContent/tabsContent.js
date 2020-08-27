@@ -1,4 +1,5 @@
 import React from 'react'
+import './tabsContent.css'
 
 const TabsContent = ({ data, activeTab }) => {
     return (

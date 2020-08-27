@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;EAC9B,QAAQ,EAAE,IAAI;CAEW;;AAL7B,AAII,eAJW,CAIX,EAAE,CAAC;EACC,WAAW,EAAE,GAAG;CAAG",
     "sources": [
         "tabsContainer.sass"
     ],

@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=tabsContainer.css.map */
+.tabs-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+}
+
+.tabs-container h3 {
+  font-weight: 600;
+}
+/*# sourceMappingURL=tabsContainer.css.map */

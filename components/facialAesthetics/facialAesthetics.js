@@ -22,7 +22,7 @@ const FacialAesthetics = () => {
                 label: "Eliminación de manchas",
                 value: 3,
                 title: "Manchas, melasmas, pecas y lunares",
-                text: "ratamiento para Manchas rojas, manchas marrones difusas y extensas pecas y lunares con peeling, laser tatoo, cosmelan  y láser de CO2."
+                text: "Tratamiento para Manchas rojas, manchas marrones difusas y extensas pecas y lunares con peeling, laser tatoo, cosmelan  y láser de CO2."
             },
             {
                 label: "Eliminación de Acné",
