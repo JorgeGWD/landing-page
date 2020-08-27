@@ -18,15 +18,6 @@ const Testimonials = () => {
         },
         {
             img: testimonials03
-        },
-        {
-            img: testimonials04
-        },
-        {
-            img: testimonials05
-        },
-        {
-            img: testimonials06
         }
     ])
 

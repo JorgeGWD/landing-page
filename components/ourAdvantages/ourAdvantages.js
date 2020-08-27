@@ -25,7 +25,7 @@ const OurAdvantages = () => {
         {
             id: 'three',
             icon: diamond,
-            title: `Cifes Premium`,
+            title: `Luvania Premium`,
             content: `Al vincularte como paciente regular te acreditarán cliente Premium con beneficios en formaciones, descuentos y regalos especiales.`
         },
         {

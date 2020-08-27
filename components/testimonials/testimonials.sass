@@ -14,7 +14,7 @@
     .testimonials-cards
         display: grid
         grid-template-columns: repeat(3,1fr)
-        grid-template-rows: repeat(2,1fr)
+        // grid-template-rows: repeat(2,1fr)
         grid-gap: 20px
         padding: 0px 40px
         .card-box
@@ -32,11 +32,5 @@
 @media screen and ( max-width: 850px )
     .testimonials
         .testimonials-cards
-            grid-template-columns: repeat(2,1fr)
-            grid-template-rows: repeat(3,1fr)
-
-@media screen and ( max-width: 453px )
-    .testimonials
-        .testimonials-cards
             grid-template-columns: 1fr
-            grid-template-rows: repeat(6,1fr)
+            grid-template-rows: repeat(3,1fr)
