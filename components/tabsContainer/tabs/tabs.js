@@ -6,18 +6,20 @@ class TabManager extends Component {
   state = {}
 
   render() {
-    const { activeTab, handleTab, tabs } = this.props;
+    const { activeTab, handleTab, data } = this.props;
     return (
         <div className="tab-manager">
-            {tabs.map(({ label, value, title, text }) => (
+            {
+            data.map((item, key) => (
             <div
-                className={`tab ${value === activeTab ? 'selected-tab' : ''}`}
-                onClick={() => { handleTab([<h3>{title}</h3>, <p>{text}</p>]); }}
-                key={value}
+                className={`tab ${item.value === activeTab ? 'selected-tab' : ''}`}
+                onClick={() => { handleTab(item.value); }}
+                key={key}
             >
-                <h3>{label}</h3>
+                <h3>{item.label}</h3>
             </div>
-            ))}
+            ))
+            }
         </div>
     );
   }
